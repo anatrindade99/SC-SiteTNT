@@ -4,10 +4,13 @@
   --largura-maxima: 1100px;
   --cor-primaria: #d71921;
   --cor-primaria-acento: #f00;
+  --cor-primaria-suave: #e7545b;
   --cor-fundo-banner-clara: #6e6668;
   --cor-fundo-banner: #383435;
   --cor-fundo-site: #f1f1f1;
   --cor-fundo-clara: rgba(249, 249, 249, 0.404);
+  --cor-texto-clara: #f1f1f1;
+  --cor-texto-escura: black;
 }
 
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
@@ -48,11 +51,23 @@ header {
 
 #head-conteudo {
   width: 100%;
-  height: 150px;
+  height: 100%;
   margin: 0 auto;
   max-width: var(--largura-maxima);
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
+}
+
+#head-logo-tnt {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#head-logo-tnt img {
+  height: auto;
+  width: 80px;
+  padding-left: 40px;
 }
 
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
@@ -146,7 +161,7 @@ main {
 
 footer {
   height: 90px;
-  background-color: deepskyblue;
+  background-color: var(--cor-fundo-banner);
 }
 
 #footer-conteudo {
@@ -154,38 +169,58 @@ footer {
   height: 90px;
   margin: 0 auto;
   max-width: var(--largura-maxima);
-  background-color: rgba(0, 0, 0, 0.233);
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 2fr 3fr 2fr;
+}
+
+#footer-logo-tnt {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#footer-logo-tnt img {
+  height: auto;
+  width: 80px;
+  padding-left: 40px;
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--cor-texto-clara);
 }
 
 /*▲▼▲▼▲▼▲▼▲▼  Botões Links  ▲▼▲▼▲▼▲▼*/
 
 .footer-icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-footer i {
+.footer-icones i {
   padding: 0.8vh;
   margin: 0 0.7vh;
-  color: var(--cor-secundaria-suave);
-  border: 2px solid var(--cor-secundaria-suave);
-  min-width: 2.5vh;
-  min-height: 2.65vh;
+  color: var(--cor-texto-clara);
+  /* border: 2px solid var(--cor-primaria-suave); */
+  /* border-radius: 50%; */
+  width: 30px;
+  height: 30px;
   text-align: center;
-  border-radius: 50%;
-  font-size: 2.5vh;
+  font-size: 30px;
   overflow: hidden;
   cursor: pointer;
 }
 
-footer a {
+.footer-icones a {
   outline: none !important;
 }
 
-footer a:focus i,
-footer i:hover {
-  color: var(--cor-secundaria-acento);
-  background-color: var(--cor-secundaria-suave);
+.footer-icones a:focus i,
+.footer-icones i:hover {
+  color: var(--cor-primaria);
 }
 
 /*▲▼▲▼▲▼▲▼▲▼  Logo Fixo  ▲▼▲▼▲▼▲▼*/
