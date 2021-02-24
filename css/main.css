@@ -70,6 +70,29 @@ header {
   padding-left: 40px;
 }
 
+#menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu li a {
+  font-family: teko;
+  font-size: 26px;
+  font-variant: small-caps;
+  text-align: center;
+  text-decoration: none;
+  min-width: 90px;
+  display: block;
+  padding: 8px 15px;
+  color: var(--cor-texto-clara);
+}
+
+#menu li a:hover {
+  color: var(--cor-primaria-acento);
+}
+
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
 /* ----------- Main ----------- */
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
