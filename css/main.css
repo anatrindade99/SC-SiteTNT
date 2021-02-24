@@ -1,16 +1,26 @@
 :root {
   --largura-maxima: 1100px;
+  --cor-primaria: #d71921;
+  --cor-primaria-acento: #f00;
+  --cor-fundo-banner-clara: #6e6668;
+  --cor-fundo-banner: #383435;
+  --cor-fundo-site: #f1f1f1;
 }
 
 body,
 html {
   margin: 0;
   padding: 0;
+  font-family: Helvetica, sans-serif;
 }
 
 header {
-  height: 150px;
-  background-color: aqua;
+  height: 80px;
+  background-image: linear-gradient(
+    to top,
+    var(--cor-fundo-banner-clara),
+    var(--cor-fundo-banner)
+  );
 }
 
 #head-conteudo {
@@ -18,47 +28,102 @@ header {
   height: 150px;
   margin: 0 auto;
   max-width: var(--largura-maxima);
-  background-color: rgba(0, 0, 0, 0.233);
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
 }
 
 main {
-  height: 950px;
-  background-color: aquamarine;
+  background-color: var(--cor-fundo-site);
 }
 
 #main-conteudo {
   width: 100%;
-  height: 950px;
+  min-height: 950px;
   margin: 0 auto;
   max-width: var(--largura-maxima);
   background-color: rgba(0, 0, 0, 0.233);
   display: grid;
-  grid-template-rows: 400px auto auto;
+  grid-template-rows: 550px 300px auto;
+}
+
+#banner {
+  background-image: url(../img/tnt-banner.jpg);
+  background-color: #333333;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -30px;
 }
 
 #duas-colunas {
   display: grid;
+  padding: 10px;
+  gap: 10px;
   grid-template-columns: auto auto;
+}
+
+#about {
+  background-color: #d82c3432;
+}
+
+#produtos {
+  background-color: #d82c3432;
 }
 
 #tres-colunas {
   display: grid;
+  padding: 10px;
+  gap: 10px;
   grid-template-columns: auto auto auto;
 }
 
+#atletas {
+  background-color: #d82c3432;
+}
+
+#eventos {
+  background-color: #d82c3432;
+}
+
+#campanhas {
+  background-color: #d82c3432;
+}
+
 footer {
-  height: 150px;
+  height: 90px;
   background-color: deepskyblue;
 }
 
 #footer-conteudo {
   width: 100%;
-  height: 150px;
+  height: 90px;
   margin: 0 auto;
   max-width: var(--largura-maxima);
   background-color: rgba(0, 0, 0, 0.233);
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
+}
+
+#logo-soulcode-fixo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  height: 90px;
+  width: 90px;
+  background-color: #3cb4c4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  transition: 0.7s;
+}
+
+#logo-soulcode-fixo:hover {
+  opacity: 1;
+  transform: scale(105%);
+}
+
+#logo-soulcode-fixo img {
+  width: 75px;
+  height: auto;
 }
