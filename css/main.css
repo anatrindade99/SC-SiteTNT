@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap");
+
 :root {
   --largura-maxima: 1100px;
   --cor-primaria: #d71921;
@@ -12,6 +14,16 @@ html {
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: teko, "Arial Narrow Bold";
+  text-transform: uppercase;
 }
 
 header {
@@ -56,9 +68,14 @@ main {
 
 #duas-colunas {
   display: grid;
-  padding: 10px;
+  padding: 10px 10px 0;
   gap: 10px;
+  grid-template-rows: 70px auto;
   grid-template-columns: auto auto;
+}
+#duas-colunas h1 {
+  grid-column: 1/3;
+  text-align: center;
 }
 
 #about {
