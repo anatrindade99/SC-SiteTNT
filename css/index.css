@@ -68,19 +68,21 @@
   grid-template-rows: 450px;
 }
 
-#atletas,
-#eventos,
-#campanhas {
+.tres-colunas-coluna {
   overflow-y: hidden;
   padding: 20px;
   background-color: var(--cor-fundo-clara);
 }
 
-#atletas:hover,
-#eventos:hover,
-#campanhas:hover {
+.tres-colunas-coluna:hover {
   overflow-y: scroll;
   padding: 20px 3px 20px 20px;
+}
+
+.tres-colunas-coluna h3 {
+  font-size: 26px;
+  margin: 0 0 10px;
+  padding: 0;
 }
 
 #atletas {
@@ -110,7 +112,9 @@
 }
 
 .cards h4 {
-  font-size: 22px;
+  text-transform: none;
+  font-variant: small-caps;
+  font-size: 25px;
   text-align: center;
   display: block;
   padding-top: 5px;
