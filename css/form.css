@@ -2,23 +2,24 @@
   font-family: teko, "Arial Narrow Bold";
   text-transform: uppercase;
   font-size: 18px;
-  height: 815px;
+  height: 940px;
   display: grid;
   grid-template-columns: 300px 1fr;
-  grid-row: 815px;
+  grid-row: 900px;
 }
 
 #imagem-lateral-formulario {
   background-image: url(../img/form-imagem-lado.jpg);
   background-size: cover;
-  height: 770px;
-  margin: 20px;
+  height: 827px;
+  margin: 82px 20px 20px;
   border: 1px solid var(--cor-fundo-banner);
 }
 
 h2,
 form section {
   margin-left: 15px;
+  margin-bottom: 6px;
 }
 
 form section input {
@@ -35,6 +36,28 @@ form section textarea {
 form section label {
   line-height: 20px;
 }
+
+#btnSend {
+  width: 257px;
+  margin-top: 25px;
+  line-height: 200%;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: var(--cor-primaria-suave);
+  color: var(--cor-texto-clara);
+  border: 1px solid black;
+}
+
+#btnSend:hover {
+  background-color: var(--cor-primaria-acento);
+}
+
+#btnSend:active {
+  box-shadow: inset black 1px 1px 1px 1px;
+}
+
+section
 
 /* #name {
   margin: 5px;
