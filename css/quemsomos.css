@@ -173,6 +173,16 @@ main {
     color: var(--cor-primaria-acento);
     text-shadow: var(--cor-primaria-suave) 2px 1px 1px;
 }
+#lab{
+    font-weight: lighter;
+    font-size: 1.3em;
+    padding: 0 25px;
+    margin: 5% 0;
+    text-align: right;
+}
+#lab h2{
+    text-align: right;
+}
 #second{
     background-color: var(--cor-fundo-clara);
     margin: 5% 0;
@@ -199,7 +209,30 @@ figure img{
 #video{
     margin: 0 25%;
 }
+#labtnt{
+    float: right;
+    width: 40%;
+}
+#labtnt2{
+    float: left;
 
+    width: 40%;
+}
+#tnttext{
+    float: right;
+    padding: 10px;
+    background-color: var(--cor-fundo-site);
+}
+#labtnt, #labtnt2{
+    list-style: none;
+}
+#navs{
+    margin-left: -5%;
+}
+#navs h1{
+    margin-left: 0;
+    text-align: center;
+}
 
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
 /* ---------- Footer ---------- */

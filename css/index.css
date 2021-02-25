@@ -1,0 +1,145 @@
+:root {
+  --largura-maxima: 1100px;
+  --cor-primaria: #d71921;
+  --cor-primaria-acento: #f00;
+  --cor-primaria-suave: #e7545b;
+  --cor-fundo-banner-clara: #6e6668;
+  --cor-fundo-banner: #383435;
+  --cor-fundo-site: #f1f1f1;
+  --cor-fundo-clara: rgba(249, 249, 249, 0.404);
+  --cor-texto-clara: #f1f1f1;
+  --cor-texto-escura: black;
+}
+
+/*▲▼▲▼▲▼▲▼▲▼▲▼  Banner  ▲▼▲▼▲▼▲▼▲▼▲▼*/
+
+#banner {
+  background-image: url(../img/tnt-banner.jpg);
+  background-color: #333333;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -30px;
+}
+
+/*▲▼▲▼▲▼▲▼▲▼  Conheça a TNT  ▲▼▲▼▲▼▲▼▲▼*/
+
+#duas-colunas {
+  display: grid;
+  padding: 10px 10px 0;
+  gap: 10px;
+  grid-template-rows: 70px auto;
+  grid-template-columns: 3fr 2fr;
+}
+
+#duas-colunas h1 {
+  grid-column: 1/3;
+  text-align: center;
+}
+
+#about {
+  background-color: var(--cor-fundo-clara);
+  box-sizing: border-box;
+  padding: 0px 20px;
+}
+
+.p-about {
+  text-align: justify;
+}
+
+#about p:last-of-type {
+  color: var(--cor-primaria);
+  font-size: 24px;
+  font-weight: 600;
+  font-family: teko;
+}
+
+#produtos {
+  background-image: url(../img/tnt-faces.png);
+  background-size: cover;
+}
+
+/*▲▼▲▼▲▼▲▼▲▼  Três Colunas  ▲▼▲▼▲▼▲▼*/
+
+#tres-colunas {
+  display: grid;
+  padding: 10px;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 450px;
+}
+
+.tres-colunas-coluna {
+  overflow-y: hidden;
+  padding: 20px;
+  background-color: var(--cor-fundo-clara);
+}
+
+.tres-colunas-coluna:hover {
+  overflow-y: scroll;
+  padding: 20px 3px 20px 20px;
+}
+
+.tres-colunas-coluna h3 {
+  font-size: 26px;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+#atletas {
+}
+
+#eventos {
+}
+
+#campanhas {
+}
+
+/* --- Cards --- */
+
+.cards {
+  height: calc(32% - 20px);
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: var(--cor-fundo-clara);
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Remove a margem do ultimo cartão */
+#artigos .cards:last-of-type {
+  margin-bottom: 0;
+}
+
+.cards h4 {
+  text-transform: none;
+  font-variant: small-caps;
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  padding-top: 5px;
+  margin: 0 0 5px calc(calc(33% - 20px) + 7px);
+  background-color: rgba(0, 0, 0, 0.075);
+  border-radius: 4px;
+}
+
+.cards p {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Fotos Cards --- */
+
+.card-img-cont {
+  float: left;
+  width: calc(33% - 20px);
+  height: 100%;
+  position: relative;
+  margin-right: 7px;
+}
+
+.card-img-cont img {
+  max-width: 100%;
+  height: auto;
+}

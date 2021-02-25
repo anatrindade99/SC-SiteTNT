@@ -156,6 +156,7 @@ main {
   grid-template-rows: 550px auto auto;
 }
 
+<<<<<<< HEAD
 /*▲▼▲▼▲▼▲▼▲▼▲▼  Banner  ▲▼▲▼▲▼▲▼▲▼▲▼*/
 
 #banner {
@@ -234,6 +235,8 @@ main {
 
 }
 
+=======
+>>>>>>> 3e9bbfd649a6d72598b11326a4634dcea90cab70
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
 /* ---------- Footer ---------- */
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
@@ -243,7 +246,6 @@ footer {
   font-size: 20px;
   height: 90px;
   background-color: var(--cor-fundo-banner);
-
 }
 
 #footer-conteudo {
