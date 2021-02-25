@@ -227,8 +227,11 @@ main {
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
 
 footer {
+  font-family: teko;
+  font-size: 20px;
   height: 90px;
   background-color: var(--cor-fundo-banner);
+
 }
 
 #footer-conteudo {
