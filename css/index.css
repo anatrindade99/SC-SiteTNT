@@ -65,32 +65,38 @@
   padding: 10px;
   gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 450px;
+  grid-template-rows: 650px;
 }
 
-#atletas,
-#eventos,
-#campanhas {
+.tres-colunas-coluna {
   overflow-y: hidden;
   padding: 20px;
-  background-color: var(--cor-fundo-clara);
+  /* background-color: var(--cor-fundo-clara); */
 }
 
-#atletas:hover,
-#eventos:hover,
-#campanhas:hover {
+.tres-colunas-coluna:hover {
   overflow-y: scroll;
   padding: 20px 3px 20px 20px;
 }
 
-#atletas {
+.tres-colunas-coluna h3 {
+  font-size: 26px;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.tres-colunas-coluna p {
+  font-size: 16px;
+}
+
+/* #atletas {
 }
 
 #eventos {
 }
 
 #campanhas {
-}
+} */
 
 /* --- Cards --- */
 
@@ -100,7 +106,6 @@
   padding: 10px;
   background-color: var(--cor-fundo-clara);
   margin-bottom: 10px;
-  border-radius: 8px;
   overflow: hidden;
 }
 
@@ -110,13 +115,14 @@
 }
 
 .cards h4 {
-  font-size: 22px;
+  text-transform: none;
+  font-variant: small-caps;
+  font-size: 25px;
   text-align: center;
   display: block;
   padding-top: 5px;
   margin: 0 0 5px calc(calc(33% - 20px) + 7px);
   background-color: rgba(0, 0, 0, 0.075);
-  border-radius: 4px;
 }
 
 .cards p {
