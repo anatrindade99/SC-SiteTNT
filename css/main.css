@@ -197,7 +197,8 @@ main {
 }
 
 #produtos {
-  background-color: #d82c3432;
+  background-image: url(../img/tnt-faces.png);
+  background-size: cover;
 }
 
 /*▲▼▲▼▲▼▲▼▲▼  Três Colunas  ▲▼▲▼▲▼▲▼*/
