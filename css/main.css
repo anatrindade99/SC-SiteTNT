@@ -148,7 +148,7 @@ main {
 
 #main-conteudo {
   width: 100%;
-  min-height: 950px;
+  min-height: calc(100vh - 170px);
   margin: 0 auto;
   max-width: var(--largura-maxima);
   background-color: rgba(0, 0, 0, 0.233);
