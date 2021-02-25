@@ -23,32 +23,32 @@ h1 {
 h2 {
   float: right;
   font-size: 40px;
-  color: #D80035;
+  color: #d80035;
   font-weight: 700;
-  left: 200px
+  left: 200px;
 }
 .acai {
   float: right;
   font-size: 40px;
-  color: #70035C;
+  color: #70035c;
   font-weight: 700;
 }
 .pessego {
   float: right;
   font-size: 40px;
-  color: #FC7763;
+  color: #fc7763;
   font-weight: 700;
 }
 .citrus {
   float: right;
   font-size: 40px;
-  color: #8FBC35;
+  color: #8fbc35;
   font-weight: 700;
 }
 .maca-verde {
   float: right;
   font-size: 40px;
-  color: #25C07D;
+  color: #25c07d;
   font-weight: 700;
 }
 .zero-acucar {
@@ -66,19 +66,19 @@ h2 {
 .tnt-isotonico-limao {
   float: right;
   font-size: 40px;
-  color: #437A14;
+  color: #437a14;
   font-weight: 700;
 }
 .tnt-isotonico-uva {
   float: right;
   font-size: 40px;
-  color: #914CA3;
+  color: #914ca3;
   font-weight: 700;
 }
 .tnt-isotonico-tangerina {
   float: right;
   font-size: 40px;
-  color: #C54810;
+  color: #c54810;
   font-weight: 700;
 }
 
@@ -98,4 +98,19 @@ h3 {
 }
 .carrosel-direito {
   max-width: 490px;
+}
+
+/*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
+/* -----Arrumando Bootstrap---- */
+/*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
+* {
+  box-sizing: content-box;
+}
+
+button {
+  box-sizing: border-box;
+}
+
+nav {
+  margin-top: 18px;
 }
