@@ -9,7 +9,13 @@
     <title>TNT Energy Drink - Produtos</title>
 
     <link rel='stylesheet' type='text/css' media='screen' href='css/normalize.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/produtos.css'>
+
+    <!-- carrossel  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
     <!-- Link FontAwesome -->
@@ -43,6 +49,185 @@
 
     <main>
         <div id="main-conteudo">
+
+            <div class="container">
+                <h1>Produtos</h1>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+                        <li data-target="#myCarousel" data-slide-to="8"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="carrossel-container">
+                                <img src="img/tnt-original.jpg" alt="original" class="original carrosel-esquerdo">
+                                <div class="carrosel-direito">
+                                    <h2>Original</h2>
+                                    <h3> É tanta energia que dá até para dividir com alguém.
+                                        É o latão pra quem encara tudo o que vem pela frente
+                                        e bate no peito pra dizer: pode vir!
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carrossel-container">
+                                <img src="img/tnt-acai.jpg" alt="acai" class="original carrosel-esquerdo">
+                                <div class="carrosel-direito">
+                                    <h2 class="acai">açaí com guaraná</h2>
+                                    <h3> TNT Açaí com Guaraná traz toda energia e sabor das frutas
+                                        brasileiras, ótima opção para dar um gás a mais nos estudos,
+                                        no trabalho e nos esportes.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carrossel-container">
+                                <img src="img/tnt-pessego.jpg" alt="pessego" class="original carrosel-esquerdo">
+                                <div class="carrosel-direito">
+                                    <h2 class="pessego">Pêssego</h2>
+                                    <h3> TNT Pêssego conta com a mesma energia da cafeína e do extrato
+                                        de guaraná ao suco da fruta. Resultado em uma bebida super
+                                        saborosa e apresentando-se como alternativa aos tradicionais
+                                        refrigerantes no acompanhamento de refeições.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carrossel-container">
+                                <img src="img/tnt-citrus.jpg" alt="citrus" class="original carrosel-esquerdo">
+                                <div class="carrosel-direito">
+                                    <h2 class="citrus">Citrus</h2>
+                                    <h3> TNT Citrus, com seu sabor cítrico e refrescante, conquista os
+                                        consumidores que buscam a energia da cafeína e do extrato de
+                                        guaraná, mas não abrem mão de ter uma bebida leve, além de
+                                        ser um ótimo aliado dos mixologistas no preparo de drink.
+
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carrossel-container">
+                                <img src="img/tnt-maca-verde.jpg" alt="maca-verde" class="original carrosel-esquerdo">
+                                <div class="carrosel-direito">
+                                    <h2 class="maca-verde">Maçã verde</h2>
+                                    <h3> A mesma energia, mas com um gosto único? Pode vir! O TNT
+                                        Maçã Verde tem um sabor que é uma explosão pra te
+                                        surpreender.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carrossel-container">
+                                <img src="img/tnt-zero-acucar.jpg" alt="zero-acucar" class="original carrosel-esquerdo">
+                                <div class="carrosel-direito">
+                                    <h2 class="zero-acucar">Zero Açúcar</h2>
+                                    <h3> Quer mais energia sem se preocupar com a sua dieta? Pode vir!
+                                        O TNT Zero Açúcar tem toda a energia de TNT, mas com apenas
+                                        12 calorias por lata.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carrossel-container">
+                                <img src="img/tnt-isotonico-laranja.png" alt="isotonico-laranja"
+                                    class="original carrosel-esquerdo tnt-isotonico">
+                                <div class="carrosel-direito">
+                                    <h2 class="tnt-isotonico-laranja">Sabor Laranja</h2>
+                                    <h3> TNT Sports Drink é um produto que repõe nutrientes e sais
+                                        minerais, fornecendo resistência para quem consome.
+                                        Antes, durante, ou depois das atividades físicas. Na academia
+                                        ou na rua. O isotônico TNT te dá mais resistência pro seu
+                                        corre no dia a dia.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carrossel-container">
+                                <img src="img/tnt-isotonico-limao.png" alt="isotonico-limao"
+                                    class="tnt-isotonico carrosel-esquerdo tnt-isotonico">
+                                <div class="carrosel-direito">
+                                    <h2 class="tnt-isotonico-limao">Sabor Limão</h2>
+                                    <h3> TNT Sports Drink é um produto que repõe nutrientes e sais
+                                        minerais, fornecendo resistência para quem consome.
+                                        Antes, durante, ou depois das atividades físicas. Na academia
+                                        ou na rua. O isotônico TNT te dá mais resistência pro seu
+                                        corre no dia a dia.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carrossel-container">
+                                <img src="img/tnt-isotonico-uva.png" alt="isotonico-uva"
+                                    class="tnt-isotonico carrosel-esquerdo tnt-isotonico">
+                                <div class="carrosel-direito">
+                                    <h2 class="tnt-isotonico-uva">Sabor Uva</h2>
+                                    <h3> TNT Sports Drink é um produto que repõe nutrientes e sais
+                                        minerais, fornecendo resistência para quem consome.
+                                        Antes, durante, ou depois das atividades físicas. Na academia
+                                        ou na rua. O isotônico TNT te dá mais resistência pro seu
+                                        corre no dia a dia.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carrossel-container">
+                                <img src="img/tnt-isotonico-tangerina.png" alt="isotonico-tangerina"
+                                    class="tnt-isotonico carrosel-esquerdo tnt-isotonico">
+                                <div class="carrosel-direito">
+                                    <h2 class="tnt-isotonico-tangerina">Sabor Tangerina</h2>
+                                    <h3> TNT Sports Drink é um produto que repõe nutrientes e sais
+                                        minerais, fornecendo resistência para quem consome.
+                                        Antes, durante, ou depois das atividades físicas. Na academia
+                                        ou na rua. O isotônico TNT te dá mais resistência pro seu
+                                        corre no dia a dia.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
 
         </div>
     </main>

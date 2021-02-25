@@ -65,13 +65,13 @@
   padding: 10px;
   gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 450px;
+  grid-template-rows: 650px;
 }
 
 .tres-colunas-coluna {
   overflow-y: hidden;
   padding: 20px;
-  background-color: var(--cor-fundo-clara);
+  /* background-color: var(--cor-fundo-clara); */
 }
 
 .tres-colunas-coluna:hover {
@@ -85,14 +85,18 @@
   padding: 0;
 }
 
-#atletas {
+.tres-colunas-coluna p {
+  font-size: 16px;
+}
+
+/* #atletas {
 }
 
 #eventos {
 }
 
 #campanhas {
-}
+} */
 
 /* --- Cards --- */
 
