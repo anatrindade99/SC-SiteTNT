@@ -51,7 +51,8 @@
   display: grid;
   padding: 10px;
   gap: 10px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 450px;
 }
 
 #atletas {
@@ -64,4 +65,50 @@
 
 #campanhas {
   background-color: #d82c3432;
+}
+
+/* --- Cards --- */
+
+.cards {
+  height: calc(32% - 20px);
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: var(--cor-fundo-clara);
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Remove a margem do ultimo cartão */
+#artigos .cards:last-of-type {
+  margin-bottom: 0;
+}
+
+#artigos h3 {
+  text-align: center;
+  display: block;
+  margin: 0 0 5px calc(calc(33% - 20px) + 7px);
+  background-color: rgba(0, 0, 0, 0.075);
+  border-radius: 4px;
+}
+
+#artigos p {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Fotos Cards --- */
+
+.card-img-cont {
+  float: left;
+  width: calc(33% - 20px);
+  height: 100%;
+  position: relative;
+  margin-right: 7px;
+}
+
+.card-img-cont img {
+  max-width: 100%;
+  height: auto;
 }
