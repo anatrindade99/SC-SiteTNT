@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap");
-
 :root {
   --largura-maxima: 1100px;
   --cor-primaria: #d71921;
@@ -112,6 +111,7 @@ header {
   font-size: 16px;
   outline: none;
   vertical-align: top;
+
 }
 
 #busca button {
@@ -144,16 +144,94 @@ header {
 
 main {
   background-color: var(--cor-fundo-site);
+  font-family: teko;
 }
 
 #main-conteudo {
+  padding-top: 5%;
   width: 100%;
   min-height: 950px;
+  max-height: auto;
   margin: 0 auto;
   max-width: var(--largura-maxima);
-  background-color: rgba(0, 0, 0, 0.233);
+  background-color: var(--cor-fundo-site);
   display: grid;
-  grid-template-rows: 550px auto auto;
+  grid-template-rows: auto;
+}
+/*▲▼▲▼▲▼▲▼▲▼  Conheça a TNT  ▲▼▲▼▲▼▲▼▲▼*/
+#sobre-nos{
+    padding: 0 25px;
+    width: 45%;
+    text-align: justify;
+    float: right;
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+#sobre-nos h2
+{
+    font-weight: 450;
+    color: var(--cor-primaria-acento);
+    text-shadow: var(--cor-primaria-suave) 2px 1px 1px;
+}
+#lab{
+    font-weight: lighter;
+    font-size: 1.3em;
+    padding: 0 25px;
+    margin: 5% 0;
+    text-align: right;
+}
+#lab h2{
+    text-align: right;
+}
+#second{
+    background-color: var(--cor-fundo-clara);
+    margin: 5% 0;
+    box-shadow: grey 1px 1px 1px 1px;
+}
+figure img{
+    clear: left;
+    float: right;
+    width: 50%;
+}
+#mulheres-no-poder{
+    clear: both;
+    width: 100%;
+}
+#mulheres-poder{
+    margin-top: 1%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.3em;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+#video{
+    margin: 0 25%;
+}
+#labtnt{
+    float: right;
+    width: 40%;
+}
+#labtnt2{
+    float: left;
+
+    width: 40%;
+}
+#tnttext{
+    float: right;
+    padding: 10px;
+    background-color: var(--cor-fundo-site);
+}
+#labtnt, #labtnt2{
+    list-style: none;
+}
+#navs{
+    margin-left: -5%;
+}
+#navs h1{
+    margin-left: 0;
+    text-align: center;
 }
 
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
@@ -165,8 +243,8 @@ footer {
   font-size: 20px;
   height: 90px;
   background-color: var(--cor-fundo-banner);
-}
 
+}
 #footer-conteudo {
   width: 100%;
   height: 90px;
