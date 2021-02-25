@@ -91,6 +91,7 @@ header {
 
 #menu li a:hover {
   color: var(--cor-primaria-acento);
+  transition: 0.3s;
 }
 
 #busca {
@@ -99,6 +100,7 @@ header {
   border: solid 0px;
   width: 250px;
   height: 30px;
+  box-shadow: 1px 1px 1px 1px var(--cor-fundo-banner); 
 }
 
 #busca input {
@@ -183,6 +185,8 @@ main {
   background-color: var(--cor-fundo-clara);
   box-sizing: border-box;
   padding: 0px 20px;
+  box-shadow: grey 1px 1px 1px 1px;
+
 }
 
 .p-about {
@@ -199,6 +203,8 @@ main {
 #produtos {
   background-image: url(../img/tnt-faces.png);
   background-size: cover;
+
+
 }
 
 /*▲▼▲▼▲▼▲▼▲▼  Três Colunas  ▲▼▲▼▲▼▲▼*/
@@ -211,15 +217,21 @@ main {
 }
 
 #atletas {
-  background-color: #d82c3432;
+  background-color: var(--cor-fundo-clara);
+  box-shadow: grey 1px 1px 1px 1px;
+
 }
 
 #eventos {
-  background-color: #d82c3432;
-}
+  background-color: var(--cor-fundo-clara);
+  box-shadow: grey 1px 1px 1px 1px;
 
+}
+  
 #campanhas {
-  background-color: #d82c3432;
+  background-color: var(--cor-fundo-clara);
+  box-shadow: grey 1px 1px 1px 1px;
+
 }
 
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
@@ -291,6 +303,7 @@ footer {
 .footer-icones a:focus i,
 .footer-icones i:hover {
   color: var(--cor-primaria);
+  transition: 0.3s;
 }
 
 /*▲▼▲▼▲▼▲▼▲▼  Logo Fixo  ▲▼▲▼▲▼▲▼*/
