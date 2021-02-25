@@ -10,7 +10,7 @@
 
     <link rel='stylesheet' type='text/css' media='screen' href='css/normalize.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
-    <link rel='stylesheet' type="text/css" media="screen" href="form.css">
+    <link rel='stylesheet' type="text/css" media="screen" href="css/form.css">
 
     <!-- Link FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -45,99 +45,109 @@
         <div id="main-conteudo">
             <form id="formulario">
                 <h2>Contato</h2>
-            <p> <label for="name">Nome*</label>
-                <input type="text" id="name"/>
-            </section>
 
-            
-        
-                <p> <label for="Email">Email*</label>
-                 <input type="email" id="Email"/>
-          
+                <section>
+                    <label for="name">Nome*</label><br>
+                    <input type="text" id="name" />
+                </section>
 
-           
-        
-              <p></p><label for="Date">Data de Nascimento*</label>
-                <input type="date" id="Date" />
-       
-                <label for="sexo">Sexo*</label>
-                <input list="genero">
-                <datalist id="genero">
-                <option>Selecione</option>
-                <option>Masculino</option>
-                <option>Feminino</option>
-                </datalist>
+                <section>
+                    <label for="Email">Email*</label><br>
+                    <input type="email" id="Email" />
+                </section>
 
-                <p></p><label for="tel">Telefone*</label>
-                <input pattern="^\d{2}-\d{5}-\d{4}$" type="tel" id="tel">
+                <section>
+                    <label for="Date">Data de Nascimento*</label><br>
+                    <input type="date" id="Date" />
+                </section>
 
-                <label for="tel">Celular*</label>
-                <input pattern="^\d{2}-\d{4}-\d{4}$"  type="tel" id="tel">
+                <section>
+                    <label for="genero">Sexo*</label><br>
+                    <input list="genero">
+                    <datalist id="genero">
+                        <option>Selecione</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                    </datalist>
+                </section>
 
-                 <label for="cep">CEP*</label>
+                <section>
+                    <label for="tel">Telefone*</label><br>
+                    <input pattern="^\d{2}-\d{5}-\d{4}$" type="tel" id="tel">
+                </section>
+
+                <section>
+                    <label for="tel">Celular*</label><br>
+                    <input pattern="^\d{2}-\d{4}-\d{4}$" type="tel" id="tel">
+                </section>
+
+                <section>
+                    <label for="cep">CEP*</label><br>
                     <input type="text" id="cep" placeholder="Digite seu CEP" />
-                   </section>
+                </section>
 
-               <p><label for="rua">Endereço*</label></p>
-                <input type="text" id="rua"/>
+                <section>
+                    <label for="rua">Endereço*</label><br>
+                    <input type="text" id="rua" />
+                </section>
+
+                <section>
+                    <label for="Number">Número*</label><br>
+                    <input type="number" id="Number" />
+                </section>
+
+                <section>
+                    <label for="bairro">Bairro*</label><br>
+                    <input type="text" id="bairro" />
+                </section>
+
+                <section>
+                    <label>Cidade*</label><br>
+                    <input type="text" id="cidade">
+                </section>
 
 
-            <section>
-              <p>  <label for="Number">Número*</label></p>
-                <input type="number" id="Number"/>
-            </section>
+                <section>
+                    <label>Estado*</label><br>
+                    <input list="estado">
+                    <datalist id="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        </p>
+                </section>
 
-            <section>
-              <p><label for="bairro">Bairro*</label></p>
-                <input type="text" id="bairro"/>
-            </section>
-            
-            <div>
-                <p><label>Cidade*</label></p>
-                <input type="text" id="cidade">
-           </div>
-  
-                
-        <section> 
-            <p><label>Estado*</label></p>
-            <input list="estado">
-            <datalist id="estado">
-                <option value="AC">Acre</option>
-                <option value="AL">Alagoas</option>
-                <option value="AP">Amapá</option>
-                <option value="AM">Amazonas</option>
-                <option value="BA">Bahia</option>
-                <option value="CE">Ceará</option>
-                <option value="DF">Distrito Federal</option>
-                <option value="ES">Espirito Santo</option>
-                <option value="GO">Goiás</option>
-                <option value="MA">Maranhão</option>
-                <option value="MS">Mato Grosso do Sul</option>
-                <option value="MT">Mato Grosso</option>
-                <option value="MG">Minas Gerais</option>
-                <option value="PA">Pará</option>
-                <option value="PB">Paraíba</option>
-                <option value="PR">Paraná</option>
-                <option value="PE">Pernambuco</option>
-                <option value="PI">Piauí</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="RN">Rio Grande do Norte</option>
-                <option value="RS">Rio Grande do Sul</option>
-                <option value="RO">Rondônia</option>
-                <option value="RR">Roraima</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="SP">São Paulo</option>
-                <option value="SE">Sergipe</option>
-                <option value="TO">Tocantins</option>
-        </p> </section>
-      
-        <section>
-            <p> <label for="obs">Feedback*</label></p>
-             <textarea id="obs" placeholder="Dê o seu Feedback para a nossa equipe :)"></textarea>
-         </section>
+                <section>
+                    <label for="obs">Feedback*</label><br>
+                    <textarea id="obs" placeholder="Dê o seu Feedback para a nossa equipe :)"></textarea>
+                </section>
 
-     </form>
-
+            </form>
+            <div id="imagem-lateral-formulario"></div>
         </div>
     </main>
 

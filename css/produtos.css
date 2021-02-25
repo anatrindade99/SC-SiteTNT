@@ -1,5 +1,6 @@
 #main-conteudo {
   overflow: hidden;
+  height: 650px;
 }
 
 .carousel-control.right {
@@ -100,9 +101,10 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .carrosel-direito {
   max-width: 490px;
-  margin: 0 -15px;
+  margin: 0;
 }
 
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/

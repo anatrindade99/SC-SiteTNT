@@ -148,9 +148,9 @@ main {
 
 #main-conteudo {
   width: 100%;
+  max-width: var(--largura-maxima);
   min-height: calc(100vh - 170px);
   margin: 0 auto;
-  max-width: var(--largura-maxima);
   background-color: rgba(0, 0, 0, 0.233);
   display: grid;
   grid-template-rows: 550px auto auto;
