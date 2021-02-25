@@ -55,7 +55,7 @@ header {
   margin: 0 auto;
   max-width: var(--largura-maxima);
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1.3fr 3fr 1.3fr;
 }
 
 #head-logo-tnt {
@@ -91,6 +91,49 @@ header {
 
 #menu li a:hover {
   color: var(--cor-primaria-acento);
+}
+
+#busca {
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.178);
+  border: solid 0px;
+  width: 250px;
+  height: 30px;
+}
+
+#busca input {
+  margin-top: 5px;
+  width: 150px;
+  background-color: transparent;
+  border: none;
+  height: 18px;
+  font-size: 16px;
+  outline: none;
+  vertical-align: top;
+}
+
+#busca button {
+  vertical-align: top;
+  float: right;
+  border: none;
+  height: 30px;
+  width: 92px;
+  cursor: pointer;
+  font-family: teko;
+  font-size: 20px;
+  color: var(--cor-texto-clara);
+  background-color: rgba(0, 0, 0, 0.514);
+  transition: 0.2s;
+}
+
+#busca button:hover {
+  color: var(--cor-texto-escura);
+  background-color: rgba(255, 255, 255, 0.514);
+}
+
+#busca button:active {
+  box-shadow: inset 1px 1px 1px black;
+  transition: 0s;
 }
 
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
