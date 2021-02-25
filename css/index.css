@@ -71,7 +71,7 @@
 .tres-colunas-coluna {
   overflow-y: hidden;
   padding: 20px;
-  background-color: var(--cor-fundo-clara);
+  /* background-color: var(--cor-fundo-clara); */
 }
 
 .tres-colunas-coluna:hover {
