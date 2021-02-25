@@ -1,3 +1,16 @@
+:root {
+  --largura-maxima: 1100px;
+  --cor-primaria: #d71921;
+  --cor-primaria-acento: #f00;
+  --cor-primaria-suave: #e7545b;
+  --cor-fundo-banner-clara: #6e6668;
+  --cor-fundo-banner: #383435;
+  --cor-fundo-site: #f1f1f1;
+  --cor-fundo-clara: rgba(249, 249, 249, 0.404);
+  --cor-texto-clara: #f1f1f1;
+  --cor-texto-escura: black;
+}
+
 /*▲▼▲▼▲▼▲▼▲▼▲▼  Banner  ▲▼▲▼▲▼▲▼▲▼▲▼*/
 
 #banner {
@@ -55,16 +68,28 @@
   grid-template-rows: 450px;
 }
 
+#atletas,
+#eventos,
+#campanhas {
+  overflow-y: hidden;
+  padding: 20px;
+  background-color: var(--cor-fundo-clara);
+}
+
+#atletas:hover,
+#eventos:hover,
+#campanhas:hover {
+  overflow-y: scroll;
+  padding: 20px 3px 20px 20px;
+}
+
 #atletas {
-  background-color: #d82c3432;
 }
 
 #eventos {
-  background-color: #d82c3432;
 }
 
 #campanhas {
-  background-color: #d82c3432;
 }
 
 /* --- Cards --- */
@@ -84,15 +109,17 @@
   margin-bottom: 0;
 }
 
-#artigos h3 {
+.cards h4 {
+  font-size: 22px;
   text-align: center;
   display: block;
+  padding-top: 5px;
   margin: 0 0 5px calc(calc(33% - 20px) + 7px);
   background-color: rgba(0, 0, 0, 0.075);
   border-radius: 4px;
 }
 
-#artigos p {
+.cards p {
   text-align: justify;
   margin: 0;
   padding: 0;
