@@ -1,47 +1,78 @@
-#main-conteudo{
-    font-family: teko, "Arial Narrow Bold";
-    text-transform: uppercase;
-    padding: 25px;
-    font-size: 18px;
+#main-conteudo {
+  font-family: teko, "Arial Narrow Bold";
+  text-transform: uppercase;
+  font-size: 18px;
+  height: 815px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-row: 815px;
 }
 
-#name{
-    margin: 5px;
-    width: 170px;
+#imagem-lateral-formulario {
+  background-image: url(../img/form-imagem-lado.jpg);
+  background-size: cover;
+  height: 770px;
+  margin: 20px;
+  border: 1px solid var(--cor-fundo-banner);
 }
-#Email{
-    margin: 5px;
-    width: 150px;
+
+h2,
+form section {
+  margin-left: 15px;
 }
-#Date{
-    margin: 5px;
-    width: 150px;
+
+form section input {
+  line-height: 24px;
+  width: 250px;
 }
-#tel{
-    margin: 5px;
-    width: 100px;
+
+form section textarea {
+  line-height: 24px;
+  width: 250px;
+  resize: none;
 }
-#rua{
-    margin: 5px;
-    top: 8px;
-    width: 150px;
+
+form section label {
+  line-height: 20px;
 }
-#Number{
-    margin: 5px;
-    top: 8px;
-    width: 150px;
+
+/* #name {
+  margin: 5px;
+  width: 150px;
 }
-#bairro{
-    margin: 5px;
-    top: 8px;
-    width: 150px;
+#Email {
+  margin: 5px;
+  width: 150px;
 }
-#obs{
-    height: 163px;
-    width: 475px;
+#Date {
+  margin: 5px;
+  width: 150px;
 }
-#sexo{
-    margin: 5px;
-    top: 8px;
-    width: 90px;
+#tel {
+  margin: 5px;
+  width: 100px;
 }
+#rua {
+  margin: 5px;
+  top: 8px;
+  width: 150px;
+}
+#Number {
+  margin: 5px;
+  top: 8px;
+  width: 150px;
+}
+#bairro {
+  margin: 5px;
+  top: 8px;
+  width: 150px;
+}
+#obs {
+  height: 163px;
+  width: 475px;
+}
+#sexo {
+  margin: 5px;
+  top: 8px;
+  width: 90px;
+} */
