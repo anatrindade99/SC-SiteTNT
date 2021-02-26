@@ -10,7 +10,7 @@
   --cor-fundo-site: #f1f1f1;
   --cor-fundo-clara: rgba(249, 249, 249, 0.404);
   --cor-texto-clara: #f1f1f1;
-  --cor-texto-escura: black;
+  --cor-texto-escura: #030303;
 }
 
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
@@ -34,6 +34,12 @@ h5,
 h6 {
   font-family: teko, "Arial Narrow Bold";
   text-transform: uppercase;
+}
+
+p,
+strong,
+em {
+  color: var(--cor-texto-escura);
 }
 
 /*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
