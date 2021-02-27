@@ -1,4 +1,4 @@
-# SiteTNT
+# Projeto CSS - SiteTNT
 
 Projeto final do módulo de CSS do curso Web Full Stack da [Soul Code Academy](https://soulcodeacademy.org/).
 
