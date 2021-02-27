@@ -1,0 +1,122 @@
+:root {
+  --largura-maxima: 1100px;
+  --cor-primaria: #d71921;
+  --cor-primaria-acento: #f00;
+  --cor-primaria-suave: #e7545b;
+  --cor-fundo-banner-clara: #666566;
+  --cor-fundo-banner: #383838e7;
+  --cor-fundo-site: #f1f1f1;
+  --cor-fundo-clara: rgba(249, 249, 249, 0.404);
+  --cor-texto-clara: #f1f1f1;
+  --cor-texto-escura: black;
+  --cor-fundo-clara-section: rgba(223, 223, 223, 0.548);
+}
+
+main {
+  background-color: var(--cor-fundo-site);
+  font-family: teko;
+}
+
+#main-conteudo {
+  width: 100%;
+  min-height: 950px;
+  max-height: auto;
+  margin: 0 auto;
+  max-width: var(--largura-maxima);
+  background-color: var(--cor-fundo-site);
+  display: grid;
+  grid-template-rows: auto;
+}
+/*▲▼▲▼▲▼▲▼▲▼  Conheça a TNT  ▲▼▲▼▲▼▲▼▲▼*/
+
+#primeira{
+    padding-top: 5%;
+    box-shadow: grey 3px 2px 5px 3px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#sobre-nos{
+    padding: 0 25px;
+    width: 45%;
+    text-align: justify;
+    float: left;
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+
+#primeira h2{
+    font-weight: 450;
+    color: var(--cor-primaria);
+}
+#lab{
+    font-weight: lighter;
+    font-size: 1.3em;
+    padding: 0 25px;
+    text-align: justify;
+    clear: both;
+}
+#lab h2{
+    text-align: left;
+}
+#second{
+    margin: 5% 0;
+    box-shadow: grey 3px 2px 5px 3px;
+    border-radius: 20px;
+}
+figure img{
+    float: left;
+    width: 50%;
+    margin-bottom: 50px;
+}
+#mulheres-no-poder{
+    clear: both;
+    width: 100%;
+}
+#mulheres-poder{
+    margin-top: 1%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.3em;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  
+}
+#video{
+    margin: 0 25%;
+}
+#labtnt{
+    float: left;
+    width: 30%;
+}
+#labtnt2{
+    margin-left: 20px;
+    float: left;
+    width: 30%;
+}
+#tnttext{
+    text-decoration: none;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor-fundo-clara-section);
+}
+#tnttext a{
+  text-decoration: none;
+  color: var(--cor-primaria-acento);
+  
+}
+#labtnt, #labtnt2 li{
+  list-style: none;
+  width: 40%;
+}
+#navs1{
+    box-shadow: grey 3px 1px 5px 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+#navs1 h1{
+    margin-left: 0;
+    text-align: center;
+}

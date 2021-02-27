@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap");
+
+:root {
+  --largura-maxima: 1100px;
+  --cor-primaria: #d71921;
+  --cor-primaria-acento: #f00;
+  --cor-primaria-suave: #e7545b;
+  --cor-fundo-banner-clara: #666566;
+  --cor-fundo-banner: #383838e7;
+  --cor-fundo-site: #f1f1f1;
+  --cor-fundo-clara: rgba(249, 249, 249, 0.404);
+  --cor-texto-clara: #f1f1f1;
+  --cor-texto-escura: #030303;
+}
+/*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
+/* ----------- Geral ---------- */
+/*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: teko, "Arial Narrow Bold";
+  text-transform: uppercase;
+}
+
+p,
+strong,
+em {
+  color: var(--cor-texto-escura);
+}
+
+/*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
+/* ---------- Header ---------- */
+/*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
+
+header {
+  height: 80px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--cor-fundo-banner-clara),
+    var(--cor-fundo-banner) 50%,
+    var(--cor-fundo-banner-clara)
+  );
+}
+
+#head-conteudo {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: var(--largura-maxima);
+  display: grid;
+  grid-template-columns: 80px 3fr 3fr;
+}
+
+#head-logo-tnt {
+  grid-column: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#head-logo-tnt img {
+  height: auto;
+  width: 80px;
+  padding-left: 40px;
+}
+
+#menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 3;
+}
+
+#menu li a {
+  font-family: teko;
+  font-size: 26px;
+  font-variant: small-caps;
+  text-align: center;
+  text-decoration: none;
+  min-width: 90px;
+  display: block;
+  padding: 8px 15px;
+  color: var(--cor-texto-clara);
+}
+
+#menu li a:hover {
+  color: var(--cor-texto-escura);
+  transition: 0.3s;
+}
+
+#busca {
+  margin: auto;
+  border: solid 3px;
+  border-style: groove;
+  border-color: var(--cor-fundo-banner-clara);
+  background-color: transparent;
+  width: 250px;
+  height: 30px;
+  box-shadow: 1px 1px 1px 1px var(--cor-fundo-banner);
+  border-radius: 10px;
+  overflow: hidden;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#busca input {
+  background-color: transparent;
+  margin-top: 5px;
+  width: 150px;
+  border: none;
+  height: 18px;
+  font-size: 16px;
+  outline: none;
+  vertical-align: top;
+}
+
+#busca button {
+  vertical-align: top;
+  float: right;
+  border: none;
+  height: 30px;
+  width: 92px;
+  cursor: pointer;
+  font-family: teko;
+  font-size: 20px;
+  color: var(--cor-texto-clara);
+  background-color: black;
+  transition: 0.3s;
+}
+
+#busca button:hover {
+  color: var(--cor-texto-escura);
+  background-color: rgba(255, 255, 255, 0.514);
+}
+
+#busca button:active {
+  transition: 0s;
+  overflow: hidden;
+  background-color: var(--cor-fundo-site);
+}
+
+/*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
+/* ----------- Main ----------- */
+/*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
+
+main {
+  background-color: var(--cor-fundo-site);
+}
+#main-conteudo {
+  width: 100%;
+  min-height: 950px;
+  margin: 0 auto;
+  max-width: var(--largura-maxima);
+  background-color: var(--cor-texto-clara);
+  display: grid;
+  grid-template-rows: 550px auto auto;
+}
+
+/*▲▼▲▼▲▼▲▼▲▼▲▼  Banner  ▲▼▲▼▲▼▲▼▲▼▲▼*/
+
+#banner {
+  margin: 20px 0;
+  border-radius: 20px;
+  background-image: url(../img/banner.jpg);
+  height: 350px;
+  background-color: #333333;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -30px;
+  box-shadow: grey 3px 2px 5px 3px;
+}
+
+/*▲▼▲▼▲▼▲▼▲▼  Conheça a TNT  ▲▼▲▼▲▼▲▼▲▼*/
+
+/*▲▼▲▼▲▼▲▼▲▼  Três Colunas  ▲▼▲▼▲▼▲▼*/
+
+/*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
+/* ---------- Footer ---------- */
+/*▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼*/
+
+footer {
+  font-family: teko;
+  font-size: 20px;
+  height: 90px;
+  background-color: var(--cor-fundo-banner);
+}
+
+#footer-conteudo {
+  width: 100%;
+  height: 90px;
+  margin: 0 auto;
+  max-width: var(--largura-maxima);
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+}
+
+#footer-logo-tnt {
+  grid-column: 3;
+  grid-row: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#footer-logo-tnt img {
+  height: auto;
+  width: 80px;
+  padding-left: 40px;
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--cor-texto-clara);
+}
+
+/*▲▼▲▼▲▼▲▼▲▼  Botões Links  ▲▼▲▼▲▼▲▼*/
+
+.footer-icones {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icones i {
+  padding: 0.8vh;
+  margin: 0 0.7vh;
+  color: var(--cor-texto-clara);
+  /* border: 2px solid var(--cor-primaria-suave); */
+  /* border-radius: 50%; */
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.footer-icones a {
+  outline: none !important;
+}
+
+.footer-icones a:focus i,
+.footer-icones i:hover {
+  color: var(--cor-texto-escura);
+  transition: 0.3s;
+}
+
+/*▲▼▲▼▲▼▲▼▲▼  Logo Fixo  ▲▼▲▼▲▼▲▼*/
+
+#logo-soulcode-fixo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  height: 90px;
+  width: 90px;
+  background-color: #3cb4c4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  transition: 0.7s;
+}
+
+#logo-soulcode-fixo:hover {
+  opacity: 1;
+  transform: scale(105%);
+}
+
+#logo-soulcode-fixo img {
+  width: 75px;
+  height: auto;
+}
