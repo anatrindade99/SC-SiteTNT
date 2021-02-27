@@ -2,7 +2,7 @@
 
 Projeto final do módulo de CSS do curso Web Full Stack de [link](https://soulcodeacademy.org/).
 
-**Equipe**: Giovanni Marcon, Ana Trinidade (@anatrindade), Samantha da Costa Cavarzzan (@Sam14011998) e Wallace Virginio (@wallace-virginio).
+**Equipe**: Giovanni Marcon, Ana Trinidade (_@anatrindade_), Samantha da Costa Cavarzzan (_@Sam14011998_) e Wallace Virginio (_@wallace-virginio_).
 
 **Objetivo**: Criar 3 layouts de site para a empresa TNT seguindo os requisitos abaixo em um prazo de um dia e meio (12 horas) de trabalho.
 
