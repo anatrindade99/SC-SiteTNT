@@ -10,9 +10,9 @@ Projeto final do módulo de CSS do curso Web Full Stack de [link](https://soulco
 
 ---
 
-• Para o desenvolvimento do layout do site, vocês deverão escolher entre Flexbox e Grid. Utilize a sua criatividade para criar o layout, seguindo os requisitos abaixo.
-• Cabeçalho com cor de fundo utilizando gradiente, contendo uma logomarca, um menu e uma barra de pesquisa, com um espaço para o usuário digitar um texto e um botão chamado buscar. Você pode optar por um menu vertical também, nesse caso ele ficará abaixo do cabeçalho. Para o menu, utilizar as listas não ordenadas. Utilizar cores que combinem com o seu projeto.
-• No conteúdo principal você deverá ter 3 seções. Uma deverá ter uma coluna, outra deverá ter duas colunas e outra ter 3 colunas. Não importa a ordem que você irá colocar essas seções, utilize a sua criatividade para deixar o layout organizado e bonito.
+- Para o desenvolvimento do layout do site, vocês deverão escolher entre Flexbox e Grid. Utilize a sua criatividade para criar o layout, seguindo os requisitos abaixo.
+- Cabeçalho com cor de fundo utilizando gradiente, contendo uma logomarca, um menu e uma barra de pesquisa, com um espaço para o usuário digitar um texto e um botão chamado buscar. Você pode optar por um menu vertical também, nesse caso ele ficará abaixo do cabeçalho. Para o menu, utilizar as listas não ordenadas. Utilizar cores que combinem com o seu projeto.
+- No conteúdo principal você deverá ter 3 seções. Uma deverá ter uma coluna, outra deverá ter duas colunas e outra ter 3 colunas. Não importa a ordem que você irá colocar essas seções, utilize a sua criatividade para deixar o layout organizado e bonito.
 
 #### Seguem alguns requisitos que deverão conter nas seções:
 
